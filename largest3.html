@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        // Program to find the Largest among the three numbers
+
+        // Take the 3 nums as input from user
+
+        var n1=prompt("Enter the number1");
+        var n2=prompt("Enter the number 2");
+        var n3=prompt("Enter the number 3");
+
+        // convert those input into int
+
+        n1=parseInt(n1);
+        n2=parseInt(n2);
+        n3=parseInt(n3);
+
+        if(n1>n2){
+            if(n1>n3){
+                console.log(n1," number1 is the greatest of all the three numbres !!");
+                document.write(n1," number1 is the greatest of all the three numbres !!");
+            }
+            else{
+                console.log(n3," number3 is the greatest of all the three numbers!!");
+                document.write(n3," number3 is the greatest of all the three numbers!!");
+            }
+        }
+        else{
+            if(n2>n3){
+                console.log(n2,"  number2 is the greatest of all the three numbers !!");
+                document.write(n2,"  number2 is the greatest of all the three numbres !!");
+
+            }
+            else{
+                console.log(n3,"  number3 is the greatest of all the three numbers!!");
+                document.write(n3,"  number3 is the greatest of all the three numbers!!");
+
+            }
+        }
+
+
+    </script>
+    
+</body>
+</html>
